@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traf</title>
+    <style>
+        div:first-child {
+            display: flex;
+        }
+        img {
+            width: 50px;
+            height: 50px;
+            margin-right: 5px;
+        };
+    </style>
+</head>
+<body>
+    <div class='hearts'></div>
+    dolny zakres <input type ='number' class='min' required>
+</br> 
+    górny zakres <input type ='number' class='max' required>
+    <!-- <p>Zakres wyszukiwanej liczby będzie od ${min} do 20</p> -->
+    </br>
+    wprowadź liczbę <input type="number" required class="liczba-wpisywana">
+    <input type="submit" value="sprawdź" onclick="tylko_raz(), wyszukaj(), lives()">
+    <p class="tekst"></p>
+    <script src="script.js"></script>
+
+</body>
+</html>
